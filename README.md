@@ -7,7 +7,7 @@ Este proyecto es una plataforma de visualización de datos industriales diseñad
 El core del proyecto es la sincronización entre el conteo físico de energía (LEDs en Arduino) y la representación lógica en el Dashboard. La interfaz está diseñada para ofrecer una experiencia de usuario limpia, con datos centrados y una barra de progreso acumulativa.
 
 ### Características Principales:
-- **Monitoreo Acumulativo**: La barra de energía cuenta con 12 segmentos. Cada segmento se activa de forma permanente cada vez que el Arduino completa un ciclo de 96 unidades.
+- **Monitoreo Acumulativo**: La barra de energía cuenta con 8 segmentos. Cada segmento se activa de forma permanente cada vez que el Arduino completa un ciclo de 96 unidades.
 - **Hardware Integrado**: Uso de la matriz LED 8x12 nativa del Arduino UNO R4.
 - **Dashboard Profesional**: Construido con Material UI (MUI), con tarjetas estadísticas alineadas y estados de conexión en tiempo real.
 
